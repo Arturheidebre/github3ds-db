@@ -26,7 +26,7 @@
       "github3ds.cia": [
         {
           "type": "downloadFile",
-          "file": "https://cdn.discordapp.com/attachments/1481683941218844682/1488476113356324984/github3ds.cia?ex=69cceae7&is=69cb9967&hm=d4523dfd3e63d1018e639a28c19d86abc4787ea50e09339e643315a780049639&",
+          "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.cia",
           "output": "sdmc:/github3ds.cia",
           "message": "Downloading GitHub3DS..."
         },
