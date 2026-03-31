@@ -4,7 +4,7 @@
     "author": "github3ds Team",
     "description": "The GitHub3DS UniStore",
     "url": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/refs/heads/main/github3ds.unistore",
-    "sheet": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
+    "sheet": "github3ds.t3x",
     "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
     "file": "github3ds.unistore",
     "version": 3,
