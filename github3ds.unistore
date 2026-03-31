@@ -5,7 +5,7 @@
     "description": "The GitHub3DS UniStore",
     "url": "https://raw.githubusercontent.com/Arturheidebre/smoo_online/refs/heads/master/Server/JsonApi/github3ds.unistore",
     "sheet": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
-    "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x"
+    "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
     "file": "github3ds.unistore",
     "version": 3,
     "revision": 5
