@@ -3,12 +3,12 @@
     "title": "github3ds Store",
     "author": "github3ds Team",
     "description": "The GitHub3DS UniStore",
-    "url": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/refs/heads/main/github3ds.unistore",
+    "url": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.unistore",
     "sheet": "github3ds.t3x",
     "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
     "file": "github3ds.unistore",
     "version": 5,
-    "revision": 12
+    "revision": 13
   },
 
   "storeContent": [
@@ -17,30 +17,27 @@
       "info": {
         "title": "GitHub3DS (CIA)",
         "author": "Morris, Artendo",
-        "version": "v1.0",
+        "version": "1.0",
         "category": ["utility"],
         "console": ["3DS"],
         "description": "GitHub Client for 3DS",
-        "license": "GNU GPL v3",
+        "license": "GPLv3",
         "icon_index": 0,
-        "last_updated": "2026-03-31 12:00 (UTC)"
+        "last_updated": "2026-03-31"
       },
-      "github3ds.cia": [
+      "script": [
         {
           "type": "downloadFile",
           "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.cia",
-          "output": "sdmc:/github3ds.cia",
-          "message": "Downloading GitHub3DS (CIA)..."
+          "output": "/github3ds.cia"
         },
         {
           "type": "installCia",
-          "file": "/github3ds.cia",
-          "message": "Installing GitHub3DS..."
+          "file": "/github3ds.cia"
         },
         {
           "type": "deleteFile",
-          "file": "sdmc:/github3ds.cia",
-          "message": "Cleaning up..."
+          "file": "/github3ds.cia"
         }
       ]
     },
@@ -49,42 +46,19 @@
       "info": {
         "title": "GitHub3DS (3DSX)",
         "author": "Morris, Artendo",
-        "version": "v1.0",
+        "version": "1.0",
         "category": ["utility"],
         "console": ["3DS"],
-        "description": "GitHub Client for 3DS (Homebrew Launcher Version)",
-        "license": "GNU GPL v3",
+        "description": "GitHub Client (Homebrew)",
+        "license": "GPLv3",
         "icon_index": 0,
-        "last_updated": "2026-03-31 12:00 (UTC)"
+        "last_updated": "2026-03-31"
       },
-      "github3ds.3dsx": [
+      "script": [
         {
           "type": "downloadFile",
           "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx",
-          "output": "sdmc:/3ds/github3ds/github3ds.3dsx",
-          "message": "Downloading GitHub3DS (3DSX)..."
-        }
-      ]
-    },
-
-    {
-      "info": {
-        "title": "Example Homebrew",
-        "author": "YourName",
-        "version": "v1.0",
-        "category": ["game"],
-        "console": ["3DS"],
-        "description": "Example App (Replace with your own)",
-        "license": "Example License",
-        "icon_index": 1,
-        "last_updated": "2026-04-01 12:00 (UTC)"
-      },
-      "example.3dsx": [
-        {
-          "type": "downloadFile",
-          "file": "https://example.com/example.3dsx",
-          "output": "sdmc:/3ds/example/example.3dsx",
-          "message": "Downloading Example App..."
+          "output": "/3ds/github3ds/github3ds.3dsx"
         }
       ]
     }
