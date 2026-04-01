@@ -7,13 +7,18 @@
     "sheet": "github3ds.t3x",
     "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
     "file": "github3ds.unistore",
-    "version": 4,
-    "revision": 9
+    "version": 5,
+    "revision": 11
   },
+
   "storeContent": [
+
+    // =========================
+    // UTILITIES
+
     {
       "info": {
-        "title": "GitHub3DS",
+        "title": "GitHub3DS (CIA)",
         "author": "Morris, Artendo",
         "version": "v1.0",
         "category": ["utility"],
@@ -28,7 +33,7 @@
           "type": "downloadFile",
           "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.cia",
           "output": "sdmc:/github3ds.cia",
-          "message": "Downloading GitHub3DS..."
+          "message": "Downloading GitHub3DS (CIA)..."
         },
         {
           "type": "installCia",
@@ -38,9 +43,67 @@
         {
           "type": "deleteFile",
           "file": "sdmc:/github3ds.cia",
-          "message": "Deleting Installation Files..."
+          "message": "Cleaning up..."
+        }
+      ]
+    },
+
+    {
+      "info": {
+        "title": "GitHub3DS (3DSX)",
+        "author": "Morris, Artendo",
+        "version": "v1.0",
+        "category": ["utility"],
+        "console": ["3DS"],
+        "description": "GitHub Client for 3DS (Homebrew Launcher Version)",
+        "license": "GNU GPL v3",
+        "icon_index": 0,
+        "last_updated": "2026-03-31 12:00 (UTC)"
+      },
+      "github3ds.3dsx": [
+        {
+          "type": "makeDir",
+          "dir": "sdmc:/3ds/github3ds",
+          "message": "Creating directory..."
+        },
+        {
+          "type": "downloadFile",
+          "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx",
+          "output": "sdmc:/3ds/github3ds/github3ds.3dsx",
+          "message": "Downloading GitHub3DS (3DSX)..."
+        }
+      ]
+    },
+
+    // =========================
+    // EXAMPLE APP
+
+    {
+      "info": {
+        "title": "Example Homebrew",
+        "author": "YourName",
+        "version": "v1.0",
+        "category": ["game"],
+        "console": ["3DS"],
+        "description": "Example App (Replace with your own)",
+        "license": "Example License",
+        "icon_index": 1,
+        "last_updated": "2026-04-01 12:00 (UTC)"
+      },
+      "example.3dsx": [
+        {
+          "type": "makeDir",
+          "dir": "sdmc:/3ds/example",
+          "message": "Creating directory..."
+        },
+        {
+          "type": "downloadFile",
+          "file": "https://example.com/example.3dsx",
+          "output": "sdmc:/3ds/example/example.3dsx",
+          "message": "Downloading Example App..."
         }
       ]
     }
+
   ]
 }
