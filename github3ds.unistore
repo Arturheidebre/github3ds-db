@@ -51,25 +51,6 @@
           "output": "/3ds/github3ds/github3ds.3dsx"
         }
       ]
-    },
-{
-      "info": {
-        "title": "GitHub3DS Alpha (CIA)",
-        "author": "Morris, Artendo",
-        "version": "Prerelease v0.9.1",
-        "category": ["utility"],
-        "console": ["3DS"],
-        "description": "GitHub Client for 3DS",
-        "license": "GPLv3",
-        "icon_index": 0,
-        "last_updated": "2026-03-31"
-      },
-      "download": [
-        {
-          "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/prerelease%20v0.9.1/github3ds.cia",
-          "output": "/github3ds_prerelease.cia"
-        }
-      ]
     }
 
   ]
