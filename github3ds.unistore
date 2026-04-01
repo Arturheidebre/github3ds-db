@@ -8,7 +8,7 @@
     "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
     "file": "github3ds.unistore",
     "version": 3,
-    "revision": 15
+    "revision": 16
   },
 
   "storeContent": [
@@ -17,7 +17,7 @@
       "info": {
         "title": "GitHub3DS (CIA)",
         "author": "Morris, Artendo",
-        "version": "1.0",
+        "version": "Prerelease v0.9",
         "category": ["utility"],
         "console": ["3DS"],
         "description": "GitHub Client for 3DS",
@@ -37,7 +37,7 @@
       "info": {
         "title": "GitHub3DS (3DSX)",
         "author": "Morris, Artendo",
-        "version": "1.0",
+        "version": "Prerelease v0.9",
         "category": ["utility"],
         "console": ["3DS"],
         "description": "GitHub Client (Homebrew)",
