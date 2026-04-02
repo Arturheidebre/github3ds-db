@@ -9,7 +9,7 @@
         "sheet": "github3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 30,
+        "revision": 31,
         "version": 4
     },
     "storeContent": [
@@ -29,26 +29,25 @@
             "GitHub3DS.3dsx": [
                 {
                     "type": "downloadFile",
-                    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx?ref_type=heads",
+                    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx",
                     "output": "%3DSX%/GitHub3DS.3dsx"
                 }
             ],
             "GitHub3DS.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/blob/files/files/latest/github3ds.cia",
+                    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.cia",
                     "output": "sdmc:/GitHub3DS.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/GitHub3DS.cia"
+                    "file": "sdmc:/GitHub3DS.cia"
                 },
                 {
                     "type": "deleteFile",
                     "file": "sdmc:/GitHub3DS.cia"
                 }
-            ],
-            
+            ]
         }
     ]
 }
