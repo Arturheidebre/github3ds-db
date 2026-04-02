@@ -8,7 +8,7 @@
     "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
     "file": "github3ds.unistore",
     "version": 3,
-    "revision": 20
+    "revision": 21
   },
 
   "storeContent": [
@@ -17,7 +17,7 @@
       "info": {
         "title": "GitHub3DS (CIA)",
         "author": "Morris, Artendo",
-        "version": "Release v1.0",
+        "version": "Latest",
         "category": ["utility"],
         "console": ["3DS"],
         "description": "GitHub Client for 3DS",
@@ -27,27 +27,27 @@
       },
       "download": [
   {
-    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/GitHub3DS.cia",
+    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.cia?ref_type=heads",
     "output": "GitHub3DS.cia"
   }
 ]
-    },
+    }
 
     {
       "info": {
         "title": "GitHub3DS (3DSX)",
         "author": "Morris, Artendo",
-        "version": "Release 1.0",
+        "version": "Latest",
         "category": ["utility"],
         "console": ["3DS"],
         "description": "GitHub Client (Homebrew)",
         "license": "GPLv3",
         "icon_index": 0,
-        "last_updated": "2026-03-31"
+        "last_updated": "2026-04-02"
       },
       "download": [
   {
-    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/github3ds.3dsx",
+    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx?ref_type=heads",
     "output": "github3ds.3dsx"
   }
 ]
