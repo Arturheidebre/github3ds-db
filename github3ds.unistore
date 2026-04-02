@@ -1,1 +1,54 @@
-
+{
+    "storeInfo": {
+        "title": "GitHub3DS Store",
+        "author": "Artendo",
+        "description": "GitHub3DS - Install GitHub3DS via Universal Updater",
+        "url": "https://github.com/Arturheidebre/github3ds-db/raw/refs/heads/main/github3ds.unistore",
+        "file": "github3ds.unistore",
+        "sheetURL": "https://github.com/Arturheidebre/github3ds-db/raw/refs/heads/main/github3ds.t3x",
+        "sheet": "github3ds.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 100,
+        "version": 4
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "GitHub3DS",
+                "author": "GitHub3DS Team",
+                "description": "A GitHub Client for 3DS",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2020-04-02 at 13:18 (UTC)",
+                "license": "gpl-3.0",
+                "version": "v1.0"
+            },
+            "GitHub3DS.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx?ref_type=heads",
+                    "output": "%3DSX%/GitHub3DS.3dsx"
+                }
+            ],
+            "GitHub3DS.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/blob/files/files/latest/github3ds.cia",
+                    "output": "sdmc:/GitHub3DS.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/GitHub3DS.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/GitHub3DS.cia"
+                }
+            ],
+            
+        }
+    ]
+}
