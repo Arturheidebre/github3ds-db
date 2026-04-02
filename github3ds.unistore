@@ -3,12 +3,12 @@
     "title": "GitHub3DS Latest Store",
     "author": "GitHub3DS Team",
     "description": "Latest downloadable builds for GitHub3DS",
-    "url": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds-latest.unistore",
+    "url": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/refs/heads/main/github3ds.unistore",
     "sheet": "github3ds-latest.t3x",
     "sheetURL": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds-latest.t3x",
     "file": "github3ds-latest.unistore",
     "version": 3,
-    "revision": 23
+    "revision": 100
   },
   "storeContent": [
     {
