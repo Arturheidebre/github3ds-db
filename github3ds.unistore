@@ -3,13 +3,13 @@
         "title": "GitHub3DS Store",
         "author": "Artendo",
         "description": "GitHub3DS - Install GitHub3DS via Universal Updater",
-        "url": "https://github.com/Arturheidebre/github3ds-db/raw/refs/heads/main/github3ds.unistore",
+        "url": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/refs/heads/main/github3ds.unistore",
         "file": "github3ds.unistore",
-        "sheetURL": "https://github.com/Arturheidebre/github3ds-db/raw/refs/heads/main/github3ds.t3x",
+        "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/refs/heads/main/github3ds.t3x",
         "sheet": "github3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 100,
+        "revision": 30,
         "version": 4
     },
     "storeContent": [
