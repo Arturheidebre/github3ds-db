@@ -1,14 +1,14 @@
 {
   "storeInfo": {
-    "title": "github3ds Store",
-    "author": "github3ds Team",
+    "title": "GitHub3DS Store",
+    "author": "GitHub3DS Team",
     "description": "The GitHub3DS UniStore",
     "url": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.unistore",
     "sheet": "github3ds.t3x",
     "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/github3ds-db/main/github3ds.t3x",
     "file": "github3ds.unistore",
     "version": 3,
-    "revision": 17
+    "revision": 19
   },
 
   "storeContent": [
@@ -17,17 +17,17 @@
       "info": {
         "title": "GitHub3DS (CIA)",
         "author": "Morris, Artendo",
-        "version": "Prerelease v0.9",
+        "version": "Release v1.0",
         "category": ["utility"],
         "console": ["3DS"],
         "description": "GitHub Client for 3DS",
         "license": "GPLv3",
         "icon_index": 0,
-        "last_updated": "2026-03-31"
+        "last_updated": "2026-04-02"
       },
       "download": [
         {
-          "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.cia",
+          "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/GitHub3DS.cia",
           "output": "/github3ds.cia"
         }
       ]
@@ -37,7 +37,7 @@
       "info": {
         "title": "GitHub3DS (3DSX)",
         "author": "Morris, Artendo",
-        "version": "Prerelease v0.9",
+        "version": "Release 1.0",
         "category": ["utility"],
         "console": ["3DS"],
         "description": "GitHub Client (Homebrew)",
@@ -47,7 +47,7 @@
       },
       "download": [
         {
-          "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx",
+          "file": "https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/github3ds.3dsx?ref_type=heads",
           "output": "/3ds/github3ds/github3ds.3dsx"
         }
       ]
